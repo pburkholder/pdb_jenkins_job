@@ -7,5 +7,8 @@ describe 'pdb_jenkins_job::default' do
     skip 'Replace this with meaningful tests'
   end
 
-  it 'creates a jenkins job pdb_jenkins_job'
+  describe file('/var/lib/jenkins/jobs/pdb_jenkins_job') do
+    it { should contain 'https://github.com/pburkholder/pdb_jenkins_job' }
+  end
+
 end
