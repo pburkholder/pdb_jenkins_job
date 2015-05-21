@@ -1,0 +1,7 @@
+name 'pdb_jenkins_job'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures pdb_jenkins_job'
+long_description 'Installs/Configures pdb_jenkins_job'
+version '0.1.0'
